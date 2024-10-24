@@ -10,9 +10,7 @@
     
     <div class="button-container">
         <button onclick="window.location.href='adicionar-avaliacoes.php';">Adicionar Avaliação</button>
-        <button onclick="window.location.href='editar-avaliacoes.php';">Editar Avaliação</button>
         <button onclick="window.location.href='listar-avaliacoes.php';">Listar Avaliações</button>
-        <button onclick="window.location.href='excluir-avaliacoes.php';">Excluir Avaliação</button>
     </div>
 </body>
 </html>
