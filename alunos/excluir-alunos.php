@@ -8,10 +8,10 @@ if (isset($_POST['id'])) {
     $stmt = $pdo->prepare($sql);
     $stmt->execute(['id' => $id]);
 
-    header('Location: index.php');
+    header('Location: menu.php');
     exit();
 } else {
-    header('Location: index.php');
+    header('Location: menu.php');
     exit();
 }
 ?>

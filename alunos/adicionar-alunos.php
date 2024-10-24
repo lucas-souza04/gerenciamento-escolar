@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $stmt = $pdo->prepare($sql);
     $stmt->execute(['nome' => $nome, 'email' => $email, 'idade' => $idade]);
 
-    header('Location: index.php');
+    header('Location: menu.php');
 }
 
 ?>
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <button type="submit">Salvar</button>
     </form>
 
-    <a href="index.php">Voltar</a>
+    <a href="menu.php">Voltar</a>
 </body>
 
 </html>

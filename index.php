@@ -8,9 +8,9 @@
 <body>
   <h1>Sistema de Gerenciamento Escolar</h>
     <ul>
-      <li><a href="alunos/index.php">Gerenciar Alunos</a></li>
-      <li><a href="disciplinas/index.php">Gerenciar Disciplinas</a></li>
-      <li><a href="avaliacoes/index.php">Gerenciar Avaliações</a></li>
+      <li><a href="alunos/menu.php">Gerenciar Alunos</a></li>
+      <li><a href="disciplinas/menu.php">Gerenciar Disciplinas</a></li>
+      <li><a href="avaliacoes/menu.php">Gerenciar Avaliações</a></li>
     </ul>
 </body>
 </html>

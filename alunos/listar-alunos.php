@@ -45,7 +45,7 @@ $alunos = $stmt->fetchAll(PDO::FETCH_ASSOC);
             </tr>
         <?php endforeach; ?>
     </table>
-    <a href="index.php">Voltar</a>
+    <a href="menu.php">Voltar</a>
 </body>
 
 </html>

@@ -9,7 +9,7 @@ if (isset($_POST['id'])) {
     $stmt->execute(['id' => $id]);
     $aluno = $stmt->fetch(PDO::FETCH_ASSOC);
 } else {
-    header('Location: index.php');
+    header('Location: menu.php');
     exit();
 }
 
@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['nome']) && isset($_POS
     $stmt = $pdo->prepare($sql);
     $stmt->execute(['nome' => $nome, 'email' => $email, 'idade' => $idade, 'id' => $id]);
 
-    header('Location: index.php');
+    header('Location: menu.php');
     exit();
 }
 ?>

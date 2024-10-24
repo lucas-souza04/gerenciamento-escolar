@@ -14,6 +14,8 @@
       <button onclick="window.location.href='adicionar-alunos.php';">Adicionar Aluno</button>
       <button onclick="window.location.href='listar-alunos.php';">Listar Alunos</button>
     </div>
+    <br>
+    <a href="../index.php">Voltar ao Menu Principal</a>
 </body>
 
 </html>
